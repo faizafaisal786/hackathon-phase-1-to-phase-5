@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv:*)",
+      "Bash(.venvScriptspip install -r requirements.txt)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python -m pip:*)",
+      "Bash(venv/Scripts/python -m uvicorn:*)",
+      "Bash(curl:*)",
+      "Bash(npm run dev:*)",
+      "Bash(python add_test_user.py:*)",
+      "Bash(venv/Scripts/python add_test_user.py)",
+      "Bash(tasklist:*)",
+      "Bash(taskkill /F /PID 1812 /PID 4548)",
+      "Bash(taskkill:*)",
+      "Bash(venv/Scripts/python.exe -m pip install:*)",
+      "Bash(venv/Scripts/python.exe -m uvicorn:*)",
+      "Bash(venv/Scripts/python.exe:*)",
+      "Bash(venv/Scripts/pip list:*)",
+      "Bash(cat:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(../venv/Scripts/python:*)"
+    ]
+  }
+}
